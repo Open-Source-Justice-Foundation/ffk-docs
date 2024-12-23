@@ -47,13 +47,14 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // TODO: Replace with our logo.
-    image: "img/docusaurus-social-card.jpg",
+    // TODO: Replace with FFK social card
+    // image: "img/ffk-social-card.png",
     navbar: {
       title: "Foundation Formation Kit",
       logo: {
         alt: "Foundation Formation Kit Logo",
         src: "img/logo.svg",
+        srcDark: "img/logo-dark.svg",
       },
       items: [
         {

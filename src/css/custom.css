@@ -4,27 +4,75 @@
  * work well for content-centric websites.
  */
 
+@font-face {
+  font-family: "HubotSans";
+  src: url("/fonts/HubotSans-Light.woff2");
+  src: url("/fonts/HubotSans-Medium.woff2");
+  src: url("/fonts/HubotSans-Regular.woff2");
+  src: url("/fonts/HubotSans-Semibold.woff2");
+}
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #fb923c;
+  --ifm-color-primary-dark: #fa811e;
+  --ifm-color-primary-darker: #fa780e;
+  --ifm-color-primary-darkest: #d56204;
+  --ifm-color-primary-light: #fca35a;
+  --ifm-color-primary-lighter: #fcac6a;
+  --ifm-color-primary-lightest: #fdc597;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-link-color: #292929;
+  --ifm-font-color-base-inverse: #ffffff;
+  --ifm-footer-background-color: #575757;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-font-family-base: "HubotSans", system-ui, -apple-system, Segoe UI,
+    Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+
+  --ifm-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+
+  .button.button--secondary {
+    color: #292929;
+  }
+
+  h3 {
+    color: #292929;
+  }
+
+  .footer--dark {
+    --ifm-footer-background-color: #575757;
+  }
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+[data-theme="dark"] {
+  --ifm-color-primary: #f2994a;
+  --ifm-color-primary-dark: #f0882d;
+  --ifm-color-primary-darker: #ef801e;
+  --ifm-color-primary-darkest: #ce690f;
+  --ifm-color-primary-light: #f4aa67;
+  --ifm-color-primary-lighter: #f5b276;
+  --ifm-color-primary-lightest: #f8cba2;
+  --ifm-navbar-background-color: #292929;
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-font-color-base-inverse: #292929;
+  --ifm-footer-background-color: #575757;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  .button.button--secondary {
+    color: #292929;
+  }
+
+  h3 {
+    color: #ffffff;
+  }
+
+  .footer--dark {
+    --ifm-footer-background-color: #575757;
+  }
 }
