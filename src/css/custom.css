@@ -6,10 +6,10 @@
 
 @font-face {
   font-family: "HubotSans";
-  src: url("/fonts/HubotSans-Light.woff2");
-  src: url("/fonts/HubotSans-Medium.woff2");
-  src: url("/fonts/HubotSans-Regular.woff2");
-  src: url("/fonts/HubotSans-Semibold.woff2");
+  src: url("/fonts/hubotsans-light.woff2");
+  src: url("/fonts/hubotsans-medium.woff2");
+  src: url("/fonts/hubotsans-regular.woff2");
+  src: url("/fonts/hubotsans-semibold.woff2");
 }
 
 /* You can override the default Infima variables here. */
