@@ -9,3 +9,41 @@
   height: 200px;
   width: 200px;
 }
+
+.description {
+  color: #292929;
+  font-size: 0.90625rem;
+}
+
+.about {
+  color: #292929;
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 9rem;
+  padding: 0 1rem;
+}
+
+.about_p1 {
+  margin-bottom: 2.5rem;
+}
+
+.about_p1>span {
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.75rem 0 2.125rem;
+}
+
+[data-theme="dark"] {
+  .description {
+    color: #ffffff;
+  }
+
+  .about {
+    color: #ffffff;
+  }
+}

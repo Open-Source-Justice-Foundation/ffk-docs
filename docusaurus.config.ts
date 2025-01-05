@@ -75,7 +75,7 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Guide",
           items: [
             {
               label: "Docs",
