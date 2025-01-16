@@ -1,7 +1,7 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 8.25rem 0 2rem;
+  padding: 8rem 0 2rem;
   width: 100%;
 }
 
@@ -12,14 +12,14 @@
 
 .description {
   color: #292929;
-  font-size: 0.90625rem;
+  font-size: 1.125rem;
 }
 
 .about {
   color: #292929;
-  font-size: 1rem;
+  font-size: 1.125rem;
   text-align: left;
-  margin-top: 9rem;
+  margin-top: 4.75rem;
   padding: 0 1rem;
 }
 
@@ -35,7 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2.75rem 0 2.125rem;
+  padding: 4.75rem 0 2rem;
 }
 
 [data-theme="dark"] {
