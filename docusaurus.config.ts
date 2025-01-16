@@ -24,8 +24,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl:
-            "https://github.com/Open-Source-Justice-Foundation/ffk-website",
+          editUrl: "https://github.com/Open-Source-Justice-Foundation/ffk-docs",
         },
         blog: {
           showReadingTime: true,
@@ -33,8 +32,7 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl:
-            "https://github.com/Open-Source-Justice-Foundation/ffk-website",
+          editUrl: "https://github.com/Open-Source-Justice-Foundation/ffk-docs",
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
@@ -65,7 +63,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/Open-Source-Justice-Foundation/ffk-website",
+          href: "https://github.com/Open-Source-Justice-Foundation/ffk-docs",
           label: "GitHub",
           position: "right",
         },
@@ -101,7 +99,7 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/Open-Source-Justice-Foundation/ffk-website",
+              href: "https://github.com/Open-Source-Justice-Foundation/ffk-docs",
             },
           ],
         },
