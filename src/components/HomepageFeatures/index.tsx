@@ -65,35 +65,37 @@ export default function HomepageFeatures(): JSX.Element {
             <Feature key={idx} {...props} />
           ))}
         </div>
-        <div className={styles.about}>
-          <p className={styles.about_p1}>
-            <span>
-              The “Foundation Formation Kit” Project. The project’s goal is to
-              develop and offer a kit of resources to turn any open-source
-              project into a tax-exempt non-profit foundation.
-            </span>{" "}
-            Forming non-profits and obtaining tax-exempt status with the IRS is
-            a time-consuming and opaque process that usually requires the
-            services of legal counsel. This is largely cost-prohibitive for
-            small- to medium-sized open-source projects. The Foundation
-            Formation Kit will provide all the forms and instructions necessary
-            for open-source projects to form their own foundations and apply for
-            tax-exempt status, without legal overhead. Once established as
-            non-profits, open-source projects can obtain financial support or
-            crowdfunding and avoid onerous tax liability for sharing that
-            support with their contributors and community.
-          </p>
-          <p>
-            The tax-exempt foundation structure has previously been the
-            exclusive privilege of large and well-capitalized open-source
-            projects. The Foundation Formation Kit will give all open-source
-            projects access to the benefits of this structure, regardless of
-            size or means. A more formalized legal framework will accelerate and
-            grow capital allocation into the open-source space. The Foundation
-            Formation Kit will thus transform an ad-hoc and fragile industry
-            into a robust, distributed ecosystem of nonprofits supporting
-            open-source contributions and development.
-          </p>
+        <div className={styles.about_container}>
+          <div className={styles.about}>
+            <p className={styles.about_p1}>
+              <span>
+                The “Foundation Formation Kit” Project. The project’s goal is to
+                develop and offer a kit of resources to turn any open-source
+                project into a tax-exempt non-profit foundation.
+              </span>{" "}
+              Forming non-profits and obtaining tax-exempt status with the IRS
+              is a time-consuming and opaque process that usually requires the
+              services of legal counsel. This is largely cost-prohibitive for
+              small- to medium-sized open-source projects. The Foundation
+              Formation Kit will provide all the forms and instructions
+              necessary for open-source projects to form their own foundations
+              and apply for tax-exempt status, without legal overhead. Once
+              established as non-profits, open-source projects can obtain
+              financial support or crowdfunding and avoid onerous tax liability
+              for sharing that support with their contributors and community.
+            </p>
+            <p>
+              The tax-exempt foundation structure has previously been the
+              exclusive privilege of large and well-capitalized open-source
+              projects. The Foundation Formation Kit will give all open-source
+              projects access to the benefits of this structure, regardless of
+              size or means. A more formalized legal framework will accelerate
+              and grow capital allocation into the open-source space. The
+              Foundation Formation Kit will thus transform an ad-hoc and fragile
+              industry into a robust, distributed ecosystem of nonprofits
+              supporting open-source contributions and development.
+            </p>
+          </div>
         </div>
         <div className={styles.buttons}>
           <Link

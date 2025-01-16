@@ -15,12 +15,19 @@
   font-size: 1.125rem;
 }
 
+.about_container {
+  display: flex;
+  justify-content: center;
+}
+
 .about {
   color: #292929;
   font-size: 1.125rem;
+  line-height: 2;
   text-align: left;
   margin-top: 4.75rem;
   padding: 0 1rem;
+  max-width: 90%;
 }
 
 .about_p1 {
