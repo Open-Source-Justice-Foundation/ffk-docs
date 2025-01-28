@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "Step by Step Guide",
-    Svg: require("@site/static/img/step-by-step-guide.svg").default,
+    Svg: require("@site/static/img/features/step-by-step-guide.svg").default,
     description: (
       <>
         FFK guides you through each step of the process when creating your
@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Clear Instructions",
-    Svg: require("@site/static/img/clear-instructions.svg").default,
+    Svg: require("@site/static/img/features/clear-instructions.svg").default,
     description: (
       <>
         This site provides all the instructions you need to complete the
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Fully Funded",
-    Svg: require("@site/static/img/fully-funded.svg").default,
+    Svg: require("@site/static/img/features/fully-funded.svg").default,
     description: (
       <>
         After following these instructions and completing your application, your

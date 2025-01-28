@@ -30,11 +30,10 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Foundation Formation Kit by the Open Source Justice Foundation"
+      title="Foundation Formation Kit Docs by the OSJF ⚖️"
+      description="Docs for the Foundation Formation Kit by the Open Source Justice Foundation ⚖️"
     >
       <HomepageHeader />
       <main>
